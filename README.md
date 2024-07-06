@@ -9,5 +9,6 @@ Classe Funcionario extends Pessoa
 
 
 Classe Loja tem uma lista de funcionarios
+
 List<Funcionario> funcionarios
 
