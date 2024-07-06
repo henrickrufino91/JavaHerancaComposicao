@@ -1,0 +1,33 @@
+package ExercicioComposicao;
+
+
+
+public class Principal {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Loja l = new Loja();
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

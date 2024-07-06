@@ -1,0 +1,41 @@
+package ExercicioComposicao;
+
+
+
+public class Principal {
+
+	
+	public static void main(String[] args) {
+		
+		
+		Loja l = new Loja();
+		Funcionario f = new Funcionario();
+		
+		
+		
+		
+	}
+	
+	
+	public static void inserir(Loja l,Funcionario f) {
+		
+		
+		l.setNome("Loja ABC");
+		l.setCnpj("7899");
+		f.setNome("Henrique");
+		f.setSalario(2000);
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

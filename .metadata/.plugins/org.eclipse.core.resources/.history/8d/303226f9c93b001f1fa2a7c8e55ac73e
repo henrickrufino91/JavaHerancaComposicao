@@ -1,0 +1,31 @@
+package ExercicioComposicao;
+
+
+public class Loja {
+
+	
+	private String nome;
+	
+	private String cnpj;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

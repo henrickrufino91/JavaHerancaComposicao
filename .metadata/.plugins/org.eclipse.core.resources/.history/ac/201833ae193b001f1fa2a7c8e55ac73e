@@ -1,0 +1,38 @@
+package ExercicioHeranca;
+
+
+public class Colaborador extends Pessoa {
+
+	
+	private String cargo;
+	
+	
+	private Double salario;
+
+
+	public Colaborador() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,51 @@
+package ExercicioHeranca;
+
+import javax.swing.JOptionPane;
+
+public class Principal {
+
+	
+	
+	public static void main(String[] args) {
+		
+		Colaborador colaborador = new Colaborador();
+		
+				
+		inserir(colaborador);
+		
+	}
+	
+	
+	
+	public static void inserir(Colaborador colaborador) {
+		
+		colaborador = new Colaborador();
+		
+		colaborador.setNome(JOptionPane.showInputDialog("Digite o nome:"));
+		colaborador.setIdade(Integer.parseInt(JOptionPane.showInputDialog("Digite Idade:")));
+		colaborador.setCargo(JOptionPane.showInputDialog("Digite cargo:"));
+		colaborador.setSalario(Double.parseDouble(JOptionPane.showInputDialog("Digite salario:")));
+		
+	}
+	
+	
+	public Colaborador listar(Colaborador colaborador) {
+		
+		colaborador.toString();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,21 @@
+
+public class FuncionarioHorista extends Funcionario {
+
+	
+	private Double valorHora;
+
+	
+	private Double diaTrabalhado;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

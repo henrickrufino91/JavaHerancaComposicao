@@ -1,0 +1,43 @@
+package ExercicioHeranca;
+
+
+public class Principal {
+
+	
+	
+	public static void main(String[] args) {
+		
+		
+		Colaborador pessoa = new Colaborador();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

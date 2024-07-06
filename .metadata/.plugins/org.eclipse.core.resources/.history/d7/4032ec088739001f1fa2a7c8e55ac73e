@@ -1,0 +1,62 @@
+
+public class FuncionarioHorista extends Funcionario {
+
+	
+	private Double valorHora;
+
+	
+	private Double diaTrabalhado;
+
+
+	public FuncionarioHorista() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public FuncionarioHorista(String nome, Integer idade, String cargo, Double salario, Double valorHora,
+			Double diaTrabalhado) {
+		super(nome, idade, cargo, salario);
+		this.valorHora = valorHora;
+		this.diaTrabalhado = diaTrabalhado;
+	}
+
+
+	public Double getValorHora() {
+		return valorHora;
+	}
+
+
+	public void setValorHora(Double valorHora) {
+		this.valorHora = valorHora;
+	}
+
+
+	public Double getDiaTrabalhado() {
+		return diaTrabalhado;
+	}
+
+
+	public void setDiaTrabalhado(Double diaTrabalhado) {
+		this.diaTrabalhado = diaTrabalhado;
+	}
+
+
+	@Override
+	public Double getSalario() {
+		// TODO Auto-generated method stub
+		return getValorHora()*getDiaTrabalhado();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

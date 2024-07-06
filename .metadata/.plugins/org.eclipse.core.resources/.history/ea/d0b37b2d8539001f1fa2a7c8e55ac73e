@@ -1,0 +1,45 @@
+
+public class Funcionario extends Pessoa {
+
+	
+	private String cargo;
+	
+	private Double salario;
+
+	
+	public Funcionario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public Funcionario(String nome,Integer idade,String cargo, Double salario) {
+		super(nome,idade);
+		this.cargo = cargo;
+		this.salario = salario;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
